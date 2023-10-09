@@ -1,7 +1,7 @@
-# Step 1: Create an empty list named nums to store user input
+#  Create an empty list named nums to store user input
 nums = []
 
-# Step 2 and 3: Request user input to get a number or list of numbers
+# Request user input to get a number or list of numbers
 while True:
     user_input = input("Enter a number or 'done' to finish: ")
     
@@ -14,14 +14,14 @@ while True:
     except ValueError:
         print("Invalid input. Please enter a valid number.")
 
-# Step 6: Determine the largest and smallest number entered by the user
+#  Determine the largest and smallest number entered by the user
 if nums:
     max_num = max(nums)
     min_num = min(nums)
 else:
     max_num = min_num = None
 
-# Step 7: Display list of numbers entered, max number, and minimum number to the user
+#  Display list of numbers entered, max number, and minimum number to the user
 print("List of numbers entered:", nums)
 if max_num is not None and min_num is not None:
     print("Maximum number:", max_num)
