@@ -25,6 +25,17 @@ print(y)
 print(z)
 print(h)
 
+#One value to multiple vairables
+x=y=z= "red"
+print(x)
+print(y)
+print(z)
+#Collection?
+kdramas = ["vincenzo", "Hospital playlist", "reply 1989"]
+x,y,z = kdramas
+print (x)
+print(y)
+print(z)
 
 
 
