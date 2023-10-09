@@ -9,7 +9,14 @@ x = str(4)
 y = int(4)
 z = float(4)
 
+#Different variable types
+#camel case
+myVariableName = "John"
 
+#Pascal Case
+MyVariableName = "John"
+#Snake Case
+my_variable_name = "John"
 
 
 
