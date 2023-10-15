@@ -30,3 +30,10 @@ students = {
         }
     },
 }
+def view_all_students():
+    for student_id, student_info in students.items():
+        print(f"Student ID: {student_id}")
+        print(f"Name: {student_info['name']}")
+        print(f"Age: {student_info['age']}")
+        print(f"School Name: {student_info['school_name']}")
+        print()
