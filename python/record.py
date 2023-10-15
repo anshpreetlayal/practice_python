@@ -37,3 +37,14 @@ def view_all_students():
         print(f"Age: {student_info['age']}")
         print(f"School Name: {student_info['school_name']}")
         print()
+        
+def view_student_info(student_id):
+    student_info = students.get(student_id)
+    if student_info:
+        print(f"Student ID: {student_info['id']}")
+        print(f"Name: {student_info['name']}")
+        print(f"Age: {student_info['age']}")
+        print(f"School Name: {student_info['school_name']}")
+        print()
+    else:
+        print("Student not found.")
