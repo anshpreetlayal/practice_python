@@ -1,7 +1,7 @@
 students = {
     1: {
         'id': 1,
-        'name': 'Alice',
+        'name': 'riya',
         'age': 20,
         'school_name': 'XYZ School',
         'completed_courses': {
@@ -16,7 +16,7 @@ students = {
     },
      2: {
         'id': 2,
-        'name': 'Bob',
+        'name': ' john',
         'age': 21,
         'school_name': 'ABC School',
         'completed_courses': {
