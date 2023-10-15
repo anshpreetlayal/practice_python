@@ -57,3 +57,13 @@ def view_ongoing_grades(student_id):
             print(f"{course}: {status}")
     else:
         print("Student not found.")
+        
+def view_completed_grades(student_id):
+    student_info = students.get(student_id)
+    if student_info:
+        print(f"Completed Grades for {student_info['name']}:")
+        for course, grade in student_info['completed_courses'].items():
+            print(f"{course}: {grade}")
+    else:
+        print("Student not found.")
+        
