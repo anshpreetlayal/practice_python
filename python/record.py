@@ -48,3 +48,12 @@ def view_student_info(student_id):
         print()
     else:
         print("Student not found.")
+
+def view_ongoing_grades(student_id):
+    student_info = students.get(student_id)
+    if student_info:
+        print(f"Ongoing Grades for {student_info['name']}:")
+        for course, status in student_info['ongoing_courses'].items():
+            print(f"{course}: {status}")
+    else:
+        print("Student not found.")
