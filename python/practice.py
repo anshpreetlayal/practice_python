@@ -52,7 +52,10 @@ x = str("s1")
 y = str(2)   
 z = str(3.0)
 
-#
+#list
+
+firstlist  = ["first", "two", "three"]
+
 #Even or odd
 number = int(input("enter a number: "))
 if number % 2 == 0:
