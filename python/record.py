@@ -67,3 +67,62 @@ def view_completed_grades(student_id):
     else:
         print("Student not found.")
         
+def view_average_completed_grades(student_id):
+    student_info = students.get(student_id)
+    if student_info:
+        completed_grades = list(student_info['completed_courses'].values())
+        if completed_grades:
+            average = sum(completed_grades) / len(completed_grades)
+            print(f"Average Completed Grades for {student_info['name']}: {average}")
+        else:
+            print("No completed grades available.")
+    else:
+        print("Student not found.")
+
+def view_specific_grade(student_id, course_name):
+    student_info = students.get(student_id)
+    if student_info:
+        completed_courses = student_info['completed_courses']
+        if course_name in completed_courses:
+            print(f"{student_info['name']}'s grade in {course_name}: {completed_courses[course_name]}")
+        else:
+            print(f"{course_name} not found in completed courses.")
+    else:
+        print("Student not found.")
+
+while True:
+    print("Choose an option:")
+    print("1. View all students' information")
+    print("2. View information on a specific student")
+    print("3. View ongoing grades of a specific student")
+    print("4. View completed grades of a specific student")
+    print("5. View average completed grades of a specific student")
+    print("6. View specific grade of a specific student")
+    print("7. Exit")
+
+    choice = input("Enter your choice (1-7): ")
+
+    if choice == '1':
+        view_all_students()
+    elif choice == '2':
+        student_id = int(input("Enter the student ID: "))
+        view_student_info(student_id)
+    elif choice == '3':
+        student_id = int(input("Enter the student ID: "))
+        view_ongoing_grades(student_id)
+    elif choice == '4':
+        student_id = int(input("Enter the student ID: "))
+        view_completed_grades(student_id)
+    elif choice == '5':
+        student_id = int(input("Enter the student ID: "))
+        view_average_completed_grades(student_id)
+    elif choice == '6':
+        student_id = int(input("Enter the student ID: "))
+        course_name = input("Enter the course name: ")
+        view_specific_grade(student_id, course_name)
+    elif choice == '7':
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please enter a number between 1 and 7.")
+
