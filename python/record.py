@@ -29,6 +29,36 @@ students = {
             'Gym': 'In Progress',
         }
     },
+    3: {
+        'id': 3,
+        'name': ' miko',
+        'age': 23,
+        'school_name': 'ABC School',
+        'completed_courses': {
+            'Math': 65,
+            'Science': 56,
+            'History': 78,
+        },
+        'ongoing_courses': {
+            'English': 'In Progress',
+            'Art': 'In Progress',
+        }
+    },
+    4: {
+        'id': 4,
+        'name': ' mia',
+        'age': 20,
+        'school_name': 'ABC School',
+        'completed_courses': {
+            'Math': 90,
+            'Science': 92,
+            'History': 77,
+            'English' : 89,
+        },
+        'ongoing_courses': {
+            'Gym': 'In Progress',
+        }
+    },
 }
 def view_all_students():
     for student_id, student_info in students.items():
