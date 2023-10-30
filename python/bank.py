@@ -1,7 +1,7 @@
 def get_pin():
     attempts = 3
     correct_pin = "1234"  
-  #  while attempts > 0:
+    while attempts >0 :
         pin = input("Hello to Humber Bank! Please enter your 4-digit PIN: ")
         if pin == correct_pin:
             return True
