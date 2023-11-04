@@ -31,5 +31,16 @@ while True:
     
     choice = input("Enter your choice (1/2/3/4): ")
     
- 
-
+    if choice == '1':
+        task = input("Enter the task to add: ")
+        add_task(task)
+    elif choice == '2':
+        task = input("Enter the task to remove: ")
+        remove_task(task)
+    elif choice == '3':
+        view_list()
+    elif choice == '4':
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please choose a valid option.")
