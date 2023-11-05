@@ -11,6 +11,7 @@ print("---------------------------------------------------------")
 car_name = "Mercedes",
 #Create a variable named num_wheels and assign value of 4
 num_wheels = 4
+#Print f-string with car_name and num_wheels
 print (f"The car is {car_name} and it num of wheels are {num_wheels}")
 
 print("---------------------------------------------------------")
