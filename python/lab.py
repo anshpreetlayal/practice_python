@@ -76,13 +76,7 @@ with open(nested_tuple_file, 'r') as f:
 flattened_tuple_file = os.path.join(data_dir, 'flattened_tuple.txt')
 
 # Task 11
-with open(flattened_tuple_file, 'w') as f:
-    for item in flattened_tuple:
-        if isinstance(item, int):
-            f.write(str(item) + '\n')
-        else:
-            for subitem in item:
-                f.write(str(subitem) + '\n')
+
 
 # Task 12
 number_range = input("Enter a range of numbers (e.g., 1 10): ").split()
