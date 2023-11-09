@@ -11,7 +11,11 @@ soccer_team_11 = {'Player3', 'Player4', 'Player5', 'Player12', 'Player13', 'Play
 baseball_team = {'Player20', 'Player21', 'Player22', 'Player23', 'Player24'}
 
 # Task 4
-
+data_dir = 'data'
+os.makedirs(data_dir, exist_ok=True)
+basketball_file = os.path.join(data_dir, 'basketball_set.txt')
+soccer_file = os.path.join(data_dir, 'soccer_set.txt')
+baseball_file = os.path.join(data_dir, 'baseball_set.txt')
 
 
 # Task 5
