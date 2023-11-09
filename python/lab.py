@@ -3,6 +3,7 @@ import os
 # Task 1
 basketball_team_5 = {'Player1', 'Player2', 'Player3', 'Player4', 'Player5'}
 # Task 2
+basketball_team_9 = {'Player6', 'Player7', 'Player8', 'Player9', 'Player10', 'Player11', 'Player12', 'Player13', 'Player14'}
 # Task 3
 soccer_team_11 = {'Player3', 'Player4', 'Player5', 'Player12', 'Player13', 'Player14', 'Player15', 'Player16', 'Player17', 'Player18', 'Player19'}
 
