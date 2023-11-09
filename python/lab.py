@@ -18,7 +18,6 @@ soccer_file = os.path.join(data_dir, 'soccer_set.txt')
 baseball_file = os.path.join(data_dir, 'baseball_set.txt')
 
 
-# Task 5
 with open(basketball_file, 'w') as f:
     for player in basketball_team_5.union(basketball_team_9):
         f.write(player + '\n')
