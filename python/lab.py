@@ -7,7 +7,8 @@ basketball_team_9 = {'Player6', 'Player7', 'Player8', 'Player9', 'Player10', 'Pl
 # Task 3
 soccer_team_11 = {'Player3', 'Player4', 'Player5', 'Player12', 'Player13', 'Player14', 'Player15', 'Player16', 'Player17', 'Player18', 'Player19'}
 
-
+# (Task 4)
+baseball_team = {'Player20', 'Player21', 'Player22', 'Player23', 'Player24'}
 
 # Task 4
 data_dir = 'data'
