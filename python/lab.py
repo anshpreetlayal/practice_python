@@ -105,3 +105,4 @@ squared_numbers_file = os.path.join(data_dir, 'squared_numbers.txt')
 with open(squared_numbers_file, 'w') as f:
     for num in squared_numbers:
         f.write(num + '\n')
+
