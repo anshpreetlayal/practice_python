@@ -63,4 +63,7 @@ if number % 2 == 0:
 else: 
       print ("odd")
 
-# 
+# Boolean??
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
