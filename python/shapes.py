@@ -67,3 +67,10 @@ height = float(input("Enter the height of the trapezoid: "))
 
 area_of_trapezoid = calculate_trapezoid_area(base1, base2, height)
 print(f"The area of the trapezoid with bases {base1} and {base2} and height {height} is: {area_of_trapezoid}")
+
+
+
+#Area of a parallelogram
+def calculate_parallelogram_area(base,height):
+    area = base * height
+    return area
