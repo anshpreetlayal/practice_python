@@ -76,3 +76,6 @@ def calculate_parallelogram_area(base,height):
     return area
 base = float(input("Enter the base lenght of the parallelogram: "))
 height = float(input("Enter the height of the parallelogram: "))
+
+area_of_parallelogram = calculate_parallelogram_area(base, height)
+print(f"The area of the parallelogram with base {base} and height {height} is: {area_of_parallelogram}")
