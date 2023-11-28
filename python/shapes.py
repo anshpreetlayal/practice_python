@@ -29,7 +29,6 @@ print(f"The area of the circle with radius {radius} is: {area_of_circle}")
 
 
 
-
 #Area of triangle
 def calculate_triangle_area(base, height):
     area = 0.5 * base * height
@@ -56,3 +55,9 @@ side = float(input("Enter the side length of the square: "))
 #area of square
 area_of_square = calculate_square_area(side)
 print(f"The area of the square with side length {side} is: {area_of_square}")
+
+
+#Area of a trapezoid
+def calcualte_trapezoid_area(base1 , base2, height):
+    area = 0.5 * (base1 + base2) * height
+    return area
