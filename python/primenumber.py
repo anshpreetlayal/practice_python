@@ -16,3 +16,5 @@ num = int(input("Enter a num to check it  its prine: "))
 is_prime = check_prime(num)
 if is_prime:
     print(f"{num} is a prime number.")
+else:
+    print(f"{num} is not a prime number.")
