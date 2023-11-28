@@ -13,6 +13,25 @@ area_of_rectangle = calculate_rectangle_area(length, width)
 print(f"The area of the rectangle with length {length} and width {width} is: {area_of_rectangle}")
 
 #Area of cirlce
+import math
+
+def calculate_circle_area(radius):
+    area = math.pi * radius**2
+    return area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Area of triangle
 def calculate_triangle_area(base, height):
@@ -26,6 +45,10 @@ height = float(input("Enter the height of the triangle: "))
 # Calculating the area of the triangle
 area_of_triangle = calculate_triangle_area(base, height)
 print(f"The area of the triangle with base {base} and height {height} is: {area_of_triangle}")
+
+
+
+
 
 # Area of square
 def calculate_square_area(side):
