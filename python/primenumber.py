@@ -8,3 +8,11 @@ def check_prime(number):
             if number % i == 0:
                 return False
         return True
+
+#take user input
+num = int(input("Enter a num to check it  its prine: "))
+
+#checking if the number is prime or not
+is_prime = check_prime(num)
+if is_prime:
+    print(f"{num} is a prime number.")
