@@ -61,3 +61,6 @@ print(f"The area of the square with side length {side} is: {area_of_square}")
 def calcualte_trapezoid_area(base1 , base2, height):
     area = 0.5 * (base1 + base2) * height
     return area
+base1 = float(input("Enter the length of base 1 of the trapezoid: "))
+base2 = float(input("Enter the length of base 2 of the trapezoid: "))
+height = float(input("Enter the height of the trapezoid: "))
