@@ -64,3 +64,6 @@ def calcualte_trapezoid_area(base1 , base2, height):
 base1 = float(input("Enter the length of base 1 of the trapezoid: "))
 base2 = float(input("Enter the length of base 2 of the trapezoid: "))
 height = float(input("Enter the height of the trapezoid: "))
+
+area_of_trapezoid = calculate_trapezoid_area(base1, base2, height)
+print(f"The area of the trapezoid with bases {base1} and {base2} and height {height} is: {area_of_trapezoid}")
