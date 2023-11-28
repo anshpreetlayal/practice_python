@@ -16,11 +16,14 @@ print(f"The area of the rectangle with length {length} and width {width} is: {ar
 
 #Area of triangle
 
+
+
 # Area of square
 def calculate_square_area(side):
     area = side**2
     return area
-
-
 # Taking user input for the side of the square
 side = float(input("Enter the side length of the square: "))
+#area of square
+area_of_square = calculate_square_area(side)
+print(f"The area of the square with side length {side} is: {area_of_square}")
