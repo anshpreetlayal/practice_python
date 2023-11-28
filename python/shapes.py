@@ -15,7 +15,9 @@ print(f"The area of the rectangle with length {length} and width {width} is: {ar
 #Area of cirlce
 
 #Area of triangle
-
+def calculate_triangle_area(base, height):
+    area = 0.5 * base * height
+    return area
 
 
 # Area of square
