@@ -19,6 +19,10 @@ def calculate_triangle_area(base, height):
     area = 0.5 * base * height
     return area
 
+# Taking user input for the base and height of the triangle
+base = float(input("Enter the base of the triangle: "))
+height = float(input("Enter the height of the triangle: "))
+
 
 # Area of square
 def calculate_square_area(side):
